@@ -1,0 +1,35 @@
+
+.link { 
+    margin: 200px 0px 0px 0px;
+    text-align: center;
+}
+.link img {
+    width: 250px;
+    height: 150px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.link img:hover {
+    margin-top: -20px;
+    transition: 0.4s linear; /* Плавность */
+}
+
+/* выпадающее меню */
+
+.social-links {
+    display: flex;
+}
+
+.lenguage {
+    display: grid;
+    margin-left: 30px;
+    
+}
+
+.lenguage button {
+    background-color: sandybrown;
+    font-size: 15px;
+    border: none;
+    margin: 1px;
+}
