@@ -153,17 +153,31 @@ body {
     cursor: pointer;
     color: #000;
 }
+/* 
+.hero-avatar {
+    width: 389px;
+    height: 389px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url('../img/AIAvatar.jpg');
+    background-repeat: no-repeat;
+    background-position: center top -10px ;
+    background-position: center top -10px ;
+    border: 13px solid #fff;
+} */
 
 .hero-avatar {
     width: 389px;
     height: 389px;
     background-color: #fff;
     border-radius: 50%;
-    background-image: url('../img/avatar.jpg');
+    background-image: url('../img/AIAvatar.jpg');
     background-repeat: no-repeat;
-    background-position: center top -10px ;
+    background-size: 125%; /* Уменьшите размер изображения */
+    background-position: center; /* Центрируйте изображение */
     border: 13px solid #fff;
 }
+
 
 /* features */
 .features {
