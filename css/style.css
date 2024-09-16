@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Картинка position: absolute; */
+/* Пост position: fixed; */
 .fixed-post {
     position: fixed;
     top: 20px; /* Расстояние от верхней части окна */
@@ -39,7 +39,7 @@ body {
     font-size: 14px; /* Размер шрифта текста */
 }
 
-/* /Картинка position: absolute; */
+/* Пост position: fixed; */
 
 /* Container (Contact Section) */
 .text-center {
