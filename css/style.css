@@ -10,6 +10,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Картинка position: absolute; */
+.fixed-post {
+    position: fixed;
+    top: 20px; /* Расстояние от верхней части окна */
+    left: 20px; /* Расстояние от правой части окна */
+    
+    padding: 15px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 200px; /* Ширина поста */
+    color: #fff;
+}
+
+.post-image {
+    max-width: 100%; /* Картинка занимает всю ширину контейнера */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.post-title {
+    text-align: center;
+    margin: 10px 0 5px; /* Отступы для заголовка */
+    font-size: 18px; /* Размер шрифта заголовка */
+}
+
+.post-text {
+    margin: 0; /* Убираем отступы для текста */
+    font-size: 14px; /* Размер шрифта текста */
+}
+
+/* /Картинка position: absolute; */
+
 /* Container (Contact Section) */
 .text-center {
     margin: 0;

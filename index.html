@@ -24,6 +24,13 @@
     <title>Цуканов Вячеслав</title> 
 </head>
 <body>
+
+    <!-- <div class="fixed-post">
+        <img src="img/avatar.jpg" alt="Картинка" class="post-image">
+        <h2 class="post-title">Присоединяйся к нам</h2>
+        <p class="post-text"></p>
+    </div> -->
+
   <header class="hero">
    <div class="container">
     <div class="hero-header"> 
@@ -52,7 +59,7 @@
     <div class="wrapper">
         <input type="checkbox" id="check1"/>
         <label for="check1"></label>
-      </div>
+    </div>
     
      <!-- /hero-header-->
     <div class="hero-content">
@@ -88,9 +95,11 @@
                     <li><a data-toggle="tab" href="##react">React</a></li>
                     <li><a data-toggle="tab" href="##C-Sharp">C#</a></li>
                     <li><a data-toggle="tab" href="##unity">Unity</a></li>
+                    <!-- <li><a data-toggle="tab" href="##unrealEngine">Unreal Engine</a></li> -->
                     <li><a data-toggle="tab" href="##java">java</a></li>
                     <li><a data-toggle="tab" href="##dataScientist">Data Scientist</a></li>
-                    <li><a data-toggle="tab" href="##robotics">Робототехника</a></li>
+                    <li><a data-toggle="tab" href="##databases">Databases</a></li>
+                    <!-- <li><a data-toggle="tab" href="##robotics">Робототехника</a></li> -->
                 
                 </ul>
             
@@ -140,14 +149,27 @@
                     <div id="react" class="tab-pane fade">
                         <p class="textWebsite-CS-menu">Профессиональные навыки:</p>
 
-                        <b class="textWebsite-CS">React</b>
-                            <ul class="textWebsite-CS">
-                                <li>Знание HTML5/ CSS3 / SASS;</li>
-                                <li>Знание JavaScript;</li>
-                                <li>Знание JQuery;</li>
-                                <li>Опыт работы с React.JS;</li>
+                        <b class="textWebsite-CS">Основы React:</b>
+                            <ul class="textWebsite-CS">                                
+                                <li>JSX (JavaScript XML)</li>
+                                <li>Props (свойства)</li>
+                                <li>State (состояние)</li>
                                 <li>Опыт работы с Webpack, Redux;</li>
-                                <li>Опыт работы с Git;</li>
+                                <li>useEffect, useState, useContext</li>
+                            </ul>
+                            
+                        <b class="textWebsite-CS">Управление состоянием:</b>
+                            <ul class="textWebsite-CS">                                
+                                <li>Контекст API</li>
+                                <li>Redux</li>
+                                <li>MobX</li>
+                            </ul>
+
+                        <b class="textWebsite-CS">Маршрутизация:</b>
+                            <ul class="textWebsite-CS">                                
+                                <li>React Router</li>
+                                <li>Настройка маршрутов</li>
+                                <li>Динамические маршруты</li>
                             </ul>
                             
                     </div>
@@ -162,49 +184,144 @@
                                 <li id="gameDevelopment">создание игр;</li>
                                 <li id="creationOfMobileApplications">создание мобильных приложений;</li>
                             </ul>
-
+                            
                         <b class="textWebsite-CS">ООП</b>
                             <ul class="textWebsite-CS">
-                                <li id="Algorithms">Алгоритмы и структуры данных;</li>
-                                <li id="Design">Паттерны проектирования (Шаблоны);</li>
-                                <li id="Delegates&Events">Делегаты и события;</li>
-                                <li id="Pointers">Указатели;</li>
-                                <li id="ExceptionHandling">Обработка исключений (try-catch и блок finally);</li>
-                                <li id="Asynchrony">Асинхронность (async, await);</li>
-                                <li id="MultithreadedProgramming">Многопоточное программирование (thread);</li>
-                                <li id="SQLLanguage">SQL - декларативный язык структурированных запросов;</li>
+                                <li id="Algorithms">Классы и объекты;</li>
+                                <li id="Design">Наследование;</li>
+                                <li id="Delegates&Events">Полиморфизм;</li>
+                                <li id="Pointers">Инкапсуляция;</li>
+                                <li id="ExceptionHandling">Абстрактные классы и интерфейсы;</li>
                             </ul>
 
-                        <b class="textWebsite-CS">Framework</b>
+                        <b class="textWebsite-CS">ASP.NET</b>
                             <ul class="textWebsite-CS">
-                                <li>ASP.NET;</li>
-                                <li>ASP.NET MVC;</li>
+                                <li>ASP.NET Web API;</li>
                                 <li>ASP.NET Core;</li>
-                                <li>Entity Framework 6;</li>
-                                <li id="SharpLINQ">LINQ - Language Integrated Query (язык интегрированных запросов);</li>
+                                <li>ASP.NET Core;</li>
+                                <li>Razor Pages;</li>
                             </ul>
                     </div>
 
                      <div id="unity" class="tab-pane fade">
                         <p class="textWebsite-CS-menu">Профессиональные навыки:</p>
-                        <b class="textWebsite-CS">Редактор Unity3D</b>
-                            <ul class="textWebsite-CS">
-                               
-                                <li>базовые манипуляции со сценой, объектами, assets и prefabs;</li>
-                                <li>векторы, проекции и математика для 3D графики;</li>
-                                <li>создание пользовательского интерфейса в игре;</li>
-                                <li>работа с материалами;</li>
-                                <li>модули физики для 2D и 3D;</li>
-                                <li>система анимации Mecanim;</li>
-                                <li>системы частиц;</li>
-                                <li>работа с аудио;</li>
-                                <li>свет и постобработка;</li>
-                                <li>работа с разными графическими пайплайнами;</li>
-                                <li>работа с искусственным интеллектом;</li>
-                            
+                        
+                        <b class="textWebsite-CS">Интерфейс редактора</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Scene View, Game View, Hierarchy, Inspector, Project</li>
+                            </ul>
+                        
+                        <b class="textWebsite-CS">Объекты и компоненты</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Создание и управление игровыми объектами</li>
+                                <li>Понимание Transform, Mesh Renderer, Collider, Rigidbody</li>
+                            </ul>
+                        
+                        <b class="textWebsite-CS">Программирование C#</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Основы языка C#: синтаксис, структуры данных, ООП</li>
+                                <li>Написание скриптов для управления поведением объектов</li>
+                            </ul>
+                        
+                        <b class="textWebsite-CS">MonoBehaviour</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Жизненный цикл объектов (Awake, Start, Update и пр.)</li>
+                                <li>Работа с событиями и корутинами</li>
+                            </ul>
+                        
+                        <b class="textWebsite-CS">Анимация объектов</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Использование Animator и Animation Controller</li>
+                                <li>Создание анимаций и их управление</li>
+                            </ul>
+                        
+                        <b class="textWebsite-CS">Физика в Unity</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Настройка Rigidbody и Collider</li>
+                                <li>Работа с физическими материалами</li>
+                            </ul>
+                        
+                        <b class="textWebsite-CS">Создание интерфейса</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Использование Canvas, UI элементов (кнопки, текстовые поля и пр.)</li>
+                                <li>Управление событиями UI</li>
+                            </ul>
+
+                            <b class="textWebsite-CS">Система сцен</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>Создание и загрузка сцен</li>
+                                <li>Использование префабов для управления объектами</li>
+                            </ul>
+
+                            <b class="textWebsite-CS">Дополнительные знания</b>
+                            <ul class="textWebsite-CS"> 
+                                <li>VR/AR, Мобильная разработка, Шейдеры</li>
                             </ul>
                     </div>
                     
+                <!--
+                    <div id="unrealEngine" class="tab-pane fade">
+                        <p class="textWebsite-CS-menu">Профессиональные навыки:</p>
+
+                        <b class="textWebsite-CS">Интерфейс редактора</b>
+                        <ul class="textWebsite-CS">
+                            <li>Основные панели: Viewport, Content Browser, World Outliner, Details Panel</li>
+                        </ul>
+
+                        <b class="textWebsite-CS">Создание и управление уровнями</b>
+                        <ul class="textWebsite-CS">
+                            <li>Работа с уровнями (Levels) и подсистемами (Sublevels)</li>
+                            <li>Использование Blueprints для управления сценами</li>
+                        </ul>
+
+                        <b class="textWebsite-CS">Программирование Blueprints</b>
+                            <ul class="textWebsite-CS">
+                                <li>Основы визуального скриптинга</li>
+                                <li>Создание и использование функций, событий и переменных</li>
+                            </ul>
+                            <b class="textWebsite-CS">C++</b>
+                            <ul class="textWebsite-CS">
+                                <li>Основы языка C++: синтаксис, ООП, работа с классами</li>
+                                <li>Интеграция C++ с Blueprints</li>
+                            </ul>
+                            <b class="textWebsite-CS">Анимация персонажей</b>
+                            <ul class="textWebsite-CS">
+                                <li>Использование Animation Blueprint и State Machines</li>
+                                <li>Настройка анимационных мешей и ригов</li>
+                            </ul>
+                            <b class="textWebsite-CS">Физика в Unreal</b>
+                            <ul class="textWebsite-CS">
+                                <li>Настройка физики объектов с помощью Physics Materials</li>
+                                <li>Работа с Colliders и Rigidbody</li>
+                            </ul>
+                            <b class="textWebsite-CS">Создание материалов</b>
+                            <ul class="textWebsite-CS">
+                                <li>Использование Material Editor для создания материалов</li>
+                                <li>Основы написания шейдеров на HLSL</li>
+                            </ul>
+                            <b class="textWebsite-CS">Система освещения</b>
+                            <ul class="textWebsite-CS">
+                                <li>Настройка статического и динамического освещения</li>
+                                <li>Работа с Lightmass и пост-обработкой</li>
+                            </ul>
+                            <b class="textWebsite-CS">Работа со звуком</b>
+                            <ul class="textWebsite-CS">
+                                <li>Импорт и настройка звуковых эффектов и музыки</li>
+                                <li>Использование Audio Mixer для управления звуком</li>
+                            </ul>
+                            <b class="textWebsite-CS">Оптимизация производительности</b>
+                            <ul class="textWebsite-CS">
+                                <li>Профилирование игры и оптимизация ресурсов</li>
+                                <li>Использование LOD (Level of Detail) и других техник</li>
+                            </ul>
+                            <b class="textWebsite-CS">Сетевое взаимодействие</b>
+                            <ul class="textWebsite-CS">
+                                <li>Основы работы с мультиплеерными играми</li>
+                                <li>Синхронизация данных между клиентом и сервером</li>
+                            </ul>
+                    </div>
+                -->
+
                     <div id="java" class="tab-pane fade">
                         <p class="textWebsite-CS-menu">Профессиональные навыки:</p>
 
@@ -215,40 +332,20 @@
                                 <li>облачных хранилищ данных;</li>
                                 <li>настольных приложений;</li>
                                 <li>компьютерных игр;</li>
-                                <li>программного обеспечения для банковских систем и т. д.</li>
                             </ul>
                         
                         <b class="textWebsite-CS">ООП</b>
                             <ul class="textWebsite-CS">
-                                <li>Алгоритмы и структуры данных</li>
-                                <li>Паттерны проектирования (Шаблоны)</li>
-                                <li>SQL, MySQL, PostgreSQL</li>
-                                <li>XML</li>
-                                <li>JDBC & Hibernate</li>
-                                <li>Java EE / Spring</li>
-                                <li>MVC (Model-View-Controller)</li>
-                                <li>Scala</li>
-                                <li>SOLID</li>
-                                <li>Unit тестирование</li>
-                                <li>Scrum</li>
-                                <li>Обработка исключений (try-catch и блок finally)</li>
-                                <li>Асинхронность (async, await)</li>
-                                <li>Многопоточное программирование (thread)</li>
+                                <li id="Algorithms">Классы и объекты;</li>
+                                <li id="Design">Наследование;</li>
+                                <li id="Delegates&Events">Полиморфизм;</li>
+                                <li id="Pointers">Инкапсуляция;</li>
                             </ul>
                         
-                        <b class="textWebsite-CS">Framework</b>
+                        <b class="textWebsite-CS">Java EE и Spring Framework</b>
                         <ul class="textWebsite-CS">
-                           
                             <li>Spring - web-приложений</li>
-                            <li>Hibernate - ORM</li>
-                            <li>Struts</li>
-                            <li>Play</li>
-                            <li>Google web Toolkit</li>
-                            <li>Grails</li>
-                            <li>Blade</li>
-                            <li>JavaServer Faces</li>
-                            <li>Vaadin</li>
-
+                            <li>Работа с RESTful API</li>
                         </ul>
                     </div>
 
@@ -263,9 +360,83 @@
                                 <li>Deep Learning (DL);</li>
                                 <li>Data Science;</li>
                             </ul>
+                        
+                        <b class="textWebsite-CS">Статистика</b>
+                            <ul class="textWebsite-CS">
+                                <li>Описательная статистика (среднее, медиана, мода, дисперсия)</li>
+                                <li>Вероятностные распределения (нормальное, биномиальное и т.д.)</li>
+                                <li>Проверка гипотез и p-значения</li>
+                            </ul>
+
+                        <b class="textWebsite-CS">Математический анализ</b>
+                            <ul class="textWebsite-CS">
+                                <li>Понятия производной и интеграла</li>
+                                <li>Оптимизация функций</li>
+                            </ul>
+
+                        <b class="textWebsite-CS">Языки программирования</b>
+                            <ul class="textWebsite-CS">
+                                <li>Python (библиотеки: NumPy, Pandas, Matplotlib, Seaborn)</li>
+                                <li>R (пакеты: dplyr, ggplot2)</li>
+                            </ul>
+
+                        <b class="textWebsite-CS">SQL</b>
+                            <ul class="textWebsite-CS">
+                                <li>Запросы для работы с базами данных</li>
+                                <li>Основы управления данными (JOIN, GROUP BY и т.д.)</li>
+                            </ul>
+
+                        <b class="textWebsite-CS">Основы ML</b>
+                            <ul class="textWebsite-CS">
+                                <li>Разделение данных на обучающую и тестовую выборки</li>
+                                <li>Понимание переобучения и недообучения</li>
+                            </ul>
+
+                        <b class="textWebsite-CS">Алгоритмы машинного обучения</b>
+                            <ul class="textWebsite-CS">
+                                <li>Регрессия (линейная и логистическая)</li>
+                                <li>Классификация (деревья решений, SVM, случайный лес)</li>
+                                <li>Кластеризация (K-means, иерархическая кластеризация)</li>
+                            </ul>
+                    
+                        <b class="textWebsite-CS">Глубокое обучение</b>
+                            <ul class="textWebsite-CS">
+                                <li>Основы нейронных сетей</li>
+                                <li>Использование библиотек (TensorFlow, Keras, PyTorch)</li>
+                            </ul>
                     </div>
 
-                    <div id="robotics" class="tab-pane fade">
+                    <div id="databases" class="tab-pane fade">
+                        <p class="textWebsite-CS-menu">Профессиональные навыки:</p>
+
+                        <b class="textWebsite-CS">Типы баз данных</b>
+                            <ul class="textWebsite-CS">
+                                <li>Реляционные (MySQL, PostgreSQL, Oracle)</li>
+                                <li>Нереляционные (MongoDB, Cassandra, Redis)</li>
+                            </ul>
+                            
+                        <b class="textWebsite-CS">Модели данных:</b>
+                            <ul class="textWebsite-CS">
+                                <li>Реляционная модель</li>
+                                <li>Документная модель</li>
+                                <li>Графовая модель</li>
+                            </ul>
+                            
+                        <b class="textWebsite-CS">Основные команды:</b>
+                            <ul class="textWebsite-CS">
+                                <li>SELECT, INSERT, UPDATE, DELETE</li>
+                                <li>JOIN (INNER, LEFT, RIGHT, FULL OUTER)</li>
+                                <li>GROUP BY и HAVING</li>
+                            </ul>
+                        
+                        <b class="textWebsite-CS">Подзапросы и объединения:</b>
+                            <ul class="textWebsite-CS">
+                                <li>Использование подзапросов</li>
+                                <li>UNION и UNION ALL</li>
+                            </ul>
+                    </div>
+
+                    <!-- <div id="robotics" class="tab-pane fade">
                         <p class="textWebsite-CS-menu">Профессиональные навыки:</p>
 
                         <b class="textWebsite-CS">Робототехника</b>
@@ -273,7 +444,7 @@
                                 <li>ЦАП</li>
                                 <li>АЦП</li>
                             </ul>
-                    </div>
+                    </div> -->
                     
                 </div>
             </div>
